@@ -1,7 +1,9 @@
 import "./App.css";
 
+import Home from "Pages/Home";
+
 function App() {
-  return <>Goodreads</>;
+  return <Home />;
 }
 
 export default App;
