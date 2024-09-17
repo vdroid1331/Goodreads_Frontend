@@ -24,7 +24,7 @@ export default function Navbar() {
         <ul className="menu menu-horizontal px-1">
           {authState?.isLoggedIn && (
             <li>
-              <Link>Shelfs</Link>
+              <Link to="/shelf">Shelfs</Link>
             </li>
           )}
           {authState?.isLoggedIn && (
